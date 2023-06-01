@@ -1,0 +1,158 @@
+.signin-mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signin-logo {
+  height: 31px;
+  cursor: pointer;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+}
+.signin-Container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 350px;
+  width: 350px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.signin-box {
+  box-sizing: border-box;
+  padding: 20px 26px !important;
+}
+.signin-Text {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+
+.signin-inputDiv {
+  margin-bottom: 14px !important;
+  width: 100%;
+}
+
+.signin-input {
+  width: 100%;
+  height: 31px;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  margin-top: 4px;
+  text-indent: 10px;
+}
+.signin-btnDiv {
+  padding: 1px 6px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.signin-btn {
+  vertical-align: middle;
+  border-radius: 8px;
+  color: black;
+  font-size: 13px;
+  padding: 1px 2px;
+  background-color: #ffd814;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  width: 100%;
+  height: 31px;
+  border: 1px solid #a6a6a6;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  margin-top: 4px;
+  text-indent: 10px;
+}
+
+.signin-btn:disabled {
+  background-color: gray;
+}
+
+.signin-btn:hover {
+  background-color: #f3d020;
+}
+.signin-divText1 {
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  margin-top: 18px !important;
+}
+
+.signin-divText2 {
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  margin-top: 18px !important;
+  color: #0066c0;
+}
+
+.signin-divider {
+  border-top: 1px solid #e7e7e7;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  width: 350px;
+  z-index: 1;
+}
+
+.signin-createBtn {
+  background: #fff;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  font-size: 13px;
+  line-height: 29px;
+  width: 350px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  outline: none;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+
+.signin-createBtn:hover {
+  background-color: #ebf5ff;
+}
+
+.signin-divider > h5 {
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 400;
+  z-index: 2;
+  bottom: 10px;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 8px 0 7px;
+}
+
+.signin-bottom {
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  margin: 80px 50px 50px 50px;
+}
+hr {
+  color: gray;
+}
+
+.signin-input:focus,
+.signin-btn:focus,
+.signin-createBtn:focus {
+  border: 1px solid #023d47;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}

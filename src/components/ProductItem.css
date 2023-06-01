@@ -1,0 +1,32 @@
+.productItem{
+  background-color: white;
+  margin:10px;
+  padding:10px;
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.productItemButton{
+
+  background-color: #ffd814;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.productItemBuy{
+  background-color: #ffa41c;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+}

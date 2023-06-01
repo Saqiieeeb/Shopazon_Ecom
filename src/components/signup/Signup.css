@@ -1,0 +1,143 @@
+.signup-mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signup-logo {
+  height: 31px;
+  cursor: pointer;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+}
+.signup-Container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 430px;
+  width: 350px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.signup-box {
+  box-sizing: border-box;
+  padding: 20px 26px !important;
+}
+.signup-Text {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 10px !important;
+}
+
+.signup-inputDiv {
+  margin-bottom: 14px !important;
+  width: 100%;
+}
+
+.signup-input {
+  width: 100%;
+  height: 31px;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  margin-top: 4px;
+  text-indent: 10px;
+}
+.signup-btnDiv {
+  padding: 1px 6px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.signup-btn {
+  vertical-align: middle;
+  border-radius: 8px;
+  color: black;
+  font-size: 13px;
+  padding: 1px 2px;
+  background-color: #ffd814;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  width: 100%;
+  height: 31px;
+  border: 1px solid #a6a6a6;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  margin-top: 4px;
+  text-indent: 10px;
+}
+
+.signup-btn:hover {
+  background-color: #f3d020;
+}
+.signup-btn:disabled {
+  background-color: gray;
+}
+
+
+.signup-divText1 {
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  margin-top: 18px !important;
+
+}
+
+.signup-divText2 {
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  margin-top: 18px ;
+  color: #0066c0;
+}
+
+.signup-divider {
+  border-top: 1px solid #e7e7e7;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+  width: 350px;
+  z-index: 1;
+}
+
+.signup-createBtn {
+  background: #fff;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  font-size: 13px;
+  line-height: 29px;
+  width: 350px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  outline: none;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+
+.signup-bottom {
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+hr {
+  color: gray;
+  margin: 0px 50px 0px 50px;
+}
+
+.signup-input:focus,
+.signup-btn:focus {
+  border: 1px solid #023d47;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}

@@ -1,0 +1,103 @@
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.shopazonLogo {
+  display: flex;
+  cursor: pointer;
+}
+
+.headerInputContainer {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  height: 43px;
+}
+
+.headerInput {
+  outline: none;
+  padding: 7px;
+  margin-left: 10px;
+  flex: 1;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+.headerInput::placeholder {
+  font-size: 14px;
+}
+
+.searchIcon {
+  background-color: #febd69;
+  color: #333333;
+  height: 39px;
+  width: 45px;
+  margin-left: -45px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  background-color: #ff9900;
+}
+
+.headerText {
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.headerTextBold {
+  font-size: 15px;
+  color: white;
+  line-height: 15px;
+  font-weight: 600;
+  
+}
+
+.headerBottom {
+  background-color: #232f3e;
+  padding: 5px;
+  height: 39px;
+  display: flex;
+  gap: 20px;
+}
+
+.headerBottomText {
+  color: white;
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+#my-tooltip {
+  z-index: 20;
+  color: black;
+  background-color: white;
+  padding: 20px 30px 20px 20px;
+  border-radius: 3px;
+}
+
+
+#my-tooltip .tip-content {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 3px;
+}
+
+#my-tooltip .tip-content:hover {
+  text-decoration: underline;
+  color: #ff9900;
+  cursor: pointer;
+}
+
+
+#my-tooltip .tip-content-head{
+  padding-bottom: 5px;
+  
+}
+

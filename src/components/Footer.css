@@ -1,0 +1,58 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #232f3e;
+}
+.footerNav {
+  background-color: #37475a;
+  height: 39px;
+  cursor: pointer;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.footerTop {
+  display: flex;
+  gap: 80px;
+  margin: 30px 0 0;
+  margin-bottom: 30px;
+}
+.accessibility {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.accessibilityHeading {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 590;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+ul > li {
+  font-size: 14px;
+  color: #ddd;
+  padding-top: 6px;
+  
+}
+
+.footerBottom {
+  padding: 30px;
+  background-color: #131921;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 11px;
+}

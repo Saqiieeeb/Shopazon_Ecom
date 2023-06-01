@@ -1,0 +1,127 @@
+.productInfo-main {
+  display: flex;
+  margin: 30px 10px;
+}
+
+.productInfo-left {
+  flex: 4;
+}
+
+.productInfo-right {
+  flex:1;
+  border-radius: 8px;
+  padding: 20px 30px 30px 30px;
+  margin-left: 20px;
+  border: 1px solid gray;
+  height: 420px;
+}
+
+.productInfo-bigText {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.productInfo-img-div {
+  padding: 10px;
+  height: 554px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productInfo-img {
+  max-height: 554px;
+}
+
+.productInfo-desc-div {
+  margin: 30px 10px;
+  padding: 10px;
+}
+
+.productInfo-desc {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px;
+}
+
+.productInfo-rating-div {
+  display: inline-flex;
+}
+
+.productInfo-price {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.productInfo-location {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.productInfo-locationButton {
+  outline: none;
+  border: none;
+  margin-top: 7px;
+  background-color: #ffa41c;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+  padding: 8px;
+}
+
+.productInfo-right-text {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.productInfo-right-text-bold {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.productInfo-coupon {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.productInfo-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 300px;
+}
+
+.productInfo-button-div {
+  margin-bottom: 10px;
+  margin-left:20px;
+}
+
+.productInfo-wish-button {
+  background-color: white;
+  outline: none;
+  border: 1px solid gray;
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px 0px 20px 30px;
+}
+
+.productInfo-wish-button:hover {
+  background-color: #ebf5ff;
+}
+.separator {
+  margin: 10px;
+  color: gray;
+}

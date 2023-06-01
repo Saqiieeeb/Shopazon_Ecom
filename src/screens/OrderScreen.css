@@ -1,0 +1,39 @@
+.orders{
+  padding:20px;
+  margin:15px;
+}
+
+.orderContainer{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderDescription{
+  margin-left: 10px;
+
+
+}
+
+.orderButtonContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left:auto;
+}
+
+.orderButtons{
+  margin-top: 5px;
+  outline: none;
+  border:none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #ffd814;
+  padding:10px;
+  cursor: pointer;
+}
+
+.line{
+  content:"";
+  border-top:0.5px solid gray;
+}

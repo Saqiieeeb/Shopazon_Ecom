@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  font-family: AmazonEmber, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: AmazonEmber;
+  src: url(./assets/fonts/amazonember/Amazon-Ember-Medium.ttf);
+}
