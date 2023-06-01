@@ -20,7 +20,7 @@ function OrderDetails() {
           </div>
         ) : (
           <div>
-            <h3>Your Orders</h3>
+            <div className="orderDetails-heading">Your Orders</div>
             
           {orderlist.map((order) => (
             <div key={order.order_id}>
